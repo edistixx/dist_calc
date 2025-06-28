@@ -19,7 +19,7 @@ from sympy import *
 
 
 # %%
-data_d = pd.read_excel("https://github.com/edistixx/dist_calc/blob/main/comp_data2.xlsx")
+data_d = pd.read_excel("https://raw.githubusercontent.com/edistixx/dist_calc/refs/heads/main/comp_data2.csv")
 data_d
 def Dab(T,P,c1,c2,corr):
     
