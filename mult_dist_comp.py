@@ -18,7 +18,7 @@ import pandas as pd
 from sympy import * 
 
 # %%
-data = pd.read_excel("https://github.com/edistixx/dist_calc/blob/main/mol_properties.xlsx")
+data = pd.read_excel("https://raw.githubusercontent.com/edistixx/dist_calc/refs/heads/main/mol_properties.csv")
 data.head(10)
 
 
